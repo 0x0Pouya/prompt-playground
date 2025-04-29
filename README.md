@@ -13,20 +13,26 @@ A minimal web-based playground to test and compare prompts using the OpenAI GPT 
 
 ## How to Run
 
-```bash
 # 1. Clone the repository
+```bash
 git clone https://github.com/your-username/prompt-playground.git
 cd prompt-playground
 ```
 
 # 2. Install dependencies
+```bash
 npm install
+```
 
 # 3. Set your OpenAI API key
+```bash
 echo "NEXT_PUBLIC_OPENAI_API_KEY=your-api-key-here" > .env.local
+```
 
 # 4. Run the development server
+```bash
 npm run dev
+```
 
 # 5. Open in browser
 http://localhost:3000
